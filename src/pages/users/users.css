@@ -1,0 +1,39 @@
+.users-container {
+  padding: 10px 15px;
+}
+
+.users-title {
+  margin-bottom: 22px !important;
+  font-size: 18px !important;
+  color: #1677ff;
+  font-weight: 600;
+}
+
+.users-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background: #fff;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.users-card:hover {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.custom-table .ant-table-thead > tr > th {
+  font-size: 13px;
+  background: #f9fafb;
+  color: #555;
+}
+
+.custom-table .ant-table-tbody > tr > td {
+  font-size: 13px;
+  padding: 10px 8px;
+}
+
+.custom-table .ant-tag {
+  font-size: 12px;
+  border-radius: 4px;
+  font-weight: 500;
+}

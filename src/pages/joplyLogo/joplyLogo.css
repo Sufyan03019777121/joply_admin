@@ -1,0 +1,67 @@
+/* ===== Container ===== */
+.joplay-logo-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+/* ===== Card ===== */
+.joplay-logo-card {
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  border-radius: 16px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* ===== Title ===== */
+.joplay-logo-title {
+  margin-bottom: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* ===== Logo Image ===== */
+.joplay-logo-image {
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  object-fit: contain;
+  height: 100px;
+}
+
+/* ===== Upload Section ===== */
+.joplay-logo-upload-section {
+  margin-top: 20px;
+}
+
+/* ===== Preview Container ===== */
+.joplay-logo-preview-container {
+  margin-top: 15px;
+}
+
+.joplay-logo-preview-box {
+  margin-top: 10px;
+  border: 1px dashed #ccc;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.joplay-logo-preview-box img {
+  height: 80px;
+  object-fit: contain;
+}
+
+/* ===== Buttons ===== */
+.joplay-logo-select-btn,
+.joplay-logo-upload-btn,
+.joplay-logo-refresh-btn {
+  width: 100%;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.joplay-logo-refresh-btn {
+  margin-top: 10px;
+}

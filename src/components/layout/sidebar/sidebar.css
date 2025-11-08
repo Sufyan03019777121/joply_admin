@@ -1,0 +1,76 @@
+/* Sidebar main container */
+.custom-sider {
+  background: #ffffff !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  border-radius: 5px; /* 👈 round corners */
+  margin: 5px;
+  margin-right: 0px;
+  border: 1px solid #f0f0f0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/* Logo area on top */
+.sider-logo {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1677ff;
+  letter-spacing: 0.5px;
+  background: #f9fafb;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.05);
+  background-color: #034199;
+}
+
+.sider-logo span {
+  color: #000;
+}
+
+/* Menu section */
+.sider-menu {
+  background: transparent !important;
+  color: #333 !important;
+  font-weight: 500;
+  border: none;
+  border-right: none !important;
+  margin-top: 8px;
+  width: 96%;
+}
+
+/* Each menu item */
+.sider-menu .ant-menu-item {
+  border-radius: 6px;
+  margin: 4px 8px;
+  transition: all 0.3s ease;
+}
+
+/* On hover */
+.sider-menu .ant-menu-item:hover {
+  background: #e6f4ff !important;
+  color: #1677ff !important;
+}
+
+/* When selected */
+.sider-menu .ant-menu-item-selected {
+  background: #1677ff !important;
+  color: #fff !important;
+  font-weight: 600;
+}
+
+/* Responsive tweak */
+@media (max-width: 768px) {
+  .custom-sider {
+    margin: 6px;
+    border-radius: 8px;
+  }
+
+  .sider-logo {
+    font-size: 16px;
+    margin: 8px;
+  }
+}
