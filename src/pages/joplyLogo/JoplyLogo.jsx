@@ -36,9 +36,9 @@ export default function JoplayLogo() {
   const fetchLogo = async () => {
     try {
       setLoading(true);
-      const res = await fetch("http://localhost:5000/api/logo");
+      const res = await fetch("https://joply-backend.onrender.com.com/api/logo");
       const data = await res.json();
-      if (data.url) setLogo("http://localhost:5000" + data.url);
+      if (data.url) setLogo("https://joply-backend.onrender.com.com" + data.url);
       else setLogo(null);
     } catch (err) {
       messageApi.error("Failed to fetch logo 😕");
@@ -56,7 +56,7 @@ export default function JoplayLogo() {
     setUploading(true);
 
     try {
-      const res = await fetch("http://localhost:5000/api/logo/upload", {
+      const res = await fetch("https://joply-backend.onrender.com.com/api/logo/upload", {
         method: "POST",
         body: formData,
       });
